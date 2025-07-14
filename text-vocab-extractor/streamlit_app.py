@@ -201,4 +201,4 @@ provide the result in JSON format with this structure:
 # Markdown
 st.markdown("---")
 st.markdown("*Gemaakt met ❤️ door Ahkyeong*")
-st.markdown("*Als je contact wilt opnemen met de maker, kun je een e-mail sturen naar ahkyeong.choe@gmail.com.*")
+st.markdown("*Voor vragen of opmerkingen kun je een e-mail sturen naar ahkyeong.choe@gmail.com.*")
