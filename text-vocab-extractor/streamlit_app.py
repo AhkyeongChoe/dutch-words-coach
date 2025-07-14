@@ -22,8 +22,8 @@ st.sidebar.header("🔧 Instellingen")
 
 
 # API key configuration
-api_key = os.getenv("GEMINI_API_KEY")
-# api_key = st.secrets.get("GEMINI_API_KEY", os.getenv("GEMINI_API_KEY"))
+# api_key = os.getenv("GEMINI_API_KEY")
+api_key = st.secrets.get("GEMINI_API_KEY", os.getenv("GEMINI_API_KEY"))
 
 if api_key:
     try:
