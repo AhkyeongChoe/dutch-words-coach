@@ -102,6 +102,7 @@ REQUIREMENTS:
 - Rewrite the given text to be suitable for {lang_level} level learners
 - Provide {lang_full} translations for all content
 - Indicate the CEFR level for each word/phrase
+- For Korean translations, use ONLY Korean characters. Do NOT include romanization. -
 
 SELECTION RULES:
 ✓ INCLUDE: Common nouns, verbs, adjectives, adverbs useful for language learning
@@ -190,9 +191,9 @@ provide the result in JSON format with this structure:
                                 example_target = example.get('target', 'N/A')
                                 st.write(f"- {example_nl} ({example_target})")
                                         
-                    # Display original JSON
-                    # with st.expander("🔧 Originele JSON Data for developer"):
-                    #     st.json(result_json)
+                # Display original JSON
+                # with st.expander("🔧 Originele JSON Data for developer"):
+                #     st.json(result_json)
                 
             except json.JSONDecodeError:
                 st.warning("⚠️ JSON verwerking mislukt. Originele respons:")
