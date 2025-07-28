@@ -2,13 +2,6 @@
 
 **Two powerful AI-driven apps to accelerate your Dutch language learning journey**
 
-## Quick Access
-| App | Description | Launch |
-|-----|-------------|--------|
-| Context Language Coach | Generate vocabulary for specific situations | <a href="https://context-language-coach.streamlit.app/" target="_blank">Launch App</a> |
-| Text Vocab Extractor | Extract vocabulary from Dutch texts | <a href="https://text-vocab-extractor.streamlit.app/" target="_blank">Launch App</a> |
-
-
 | App | Description | Launch |
 |-----|-------------|--------|
 | Context Language Coach | Generate vocabulary for specific situations | **[Launch App](https://context-language-coach.streamlit.app/)** |
